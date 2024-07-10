@@ -27,6 +27,8 @@ def draw_koch_snowflake(order, size=300):
 
     window.mainloop()
 
+order = int(input("Enter the recursion level for the Koch snowflake: "))
+
 # Виклик функції
-draw_koch_snowflake(2)
+draw_koch_snowflake(order)
 
