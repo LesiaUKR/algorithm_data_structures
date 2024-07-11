@@ -21,5 +21,6 @@ def selection_sort(arr_):
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
     return arr
 
-numbers = [5, 3, 8, 4, 2]
-print(numbers, selection_sort(numbers))
+if __name__ == '__main__':
+    numbers = [5, 3, 8, 4, 2]
+    print(selection_sort(numbers)) # виведе: [2, 3, 4, 5, 8]

@@ -27,8 +27,6 @@ def insertion_sort(lst_):
         lst[j + 1] = key 
     return lst
 
-numbers = [5, 3, 8, 4, 2]
-insertion_sort(numbers)
 
 if __name__ == '__main__':
     numbers = [5, 3, 8, 4, 2]
